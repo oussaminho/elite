@@ -11,7 +11,7 @@ const PORT = Number(process.env.PORT || 3000);
 const DISCORD_INVITE_URL = 'https://discord.gg/QCE2422UxJ';
 const isProduction = process.env.NODE_ENV === 'production';
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'adminelite';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || (isProduction ? '' : 'adminelite');
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || (isProduction ? '' : 'admin');
 const isManagedPreview = Boolean(process.env.MANUS_PROJECT_ID);
 const sessions = new Map();
 
